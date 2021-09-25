@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing - renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#E7F4FB",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "elevation": 1,
+          "shadowColor": "#164672",
+          "shadowOffset": Object {
+            "height": 5,
+            "width": 0,
+          },
+          "shadowOpacity": 0.3,
+        },
+        Object {
+          "height": 68,
+        },
+      ]
+    }
+  >
+    <BVLinearGradient
+      angle={180}
+      angleCenter={
+        Object {
+          "x": 0.5,
+          "y": 0.5,
+        }
+      }
+      colors={
+        Array [
+          4281175782,
+          4280908484,
+        ]
+      }
+      endPoint={
+        Object {
+          "x": 1,
+          "y": 0,
+        }
+      }
+      locations={
+        Array [
+          0,
+          1,
+        ]
+      }
+      startPoint={
+        Object {
+          "x": 0,
+          "y": 1,
+        }
+      }
+      style={
+        Array [
+          Object {
+            "flex": 1,
+            "paddingHorizontal": 26,
+          },
+          Object {
+            "paddingTop": 0,
+          },
+          Object {},
+        ]
+      }
+      useAngle={true}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "top": 2,
+            },
+            Object {
+              "marginBottom": 0,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "top": 2,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "bottom": 0,
+                "justifyContent": "center",
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Viga-Regular",
+                  "fontSize": 21,
+                  "lineHeight": 25,
+                  "textAlign": "center",
+                }
+              }
+            >
+               
+               
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            hitSlop={
+              Object {
+                "bottom": 15,
+                "left": 15,
+                "right": 15,
+                "top": 15,
+              }
+            }
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "opacity": 1,
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "uri": "icon_back",
+                }
+              }
+              style={
+                Object {
+                  "height": 12,
+                  "marginRight": 25,
+                  "tintColor": "#FFFFFF",
+                  "width": 7,
+                }
+              }
+            />
+            <Text
+              adjustsFontSizeToFit={true}
+              minimumFontScale={0.3}
+              numberOfLines={1}
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontFamily": "Viga-Regular",
+                  "fontSize": 21,
+                  "lineHeight": 25,
+                  "textAlign": "center",
+                }
+              }
+            >
+               
+              CONNECT ACCOUNT TO ANGEL BROKING
+               
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          />
+        </View>
+      </View>
+    </BVLinearGradient>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": 0,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#59595C"
+      hidesWhenStopped={true}
+      size="large"
+      testID="activity"
+    />
+  </View>
+</View>
+`;
